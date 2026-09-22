@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56" role="img" aria-labelledby="title">
+  <title id="title">PuTTY</title>
+  <rect width="56" height="56" rx="12" fill="#242932"/>
+  <g fill="none" stroke="#B5BCE8" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="13" y="16" width="30" height="24" rx="3"/>
+    <path d="m20 24 5 4-5 4m10 0h5"/>
+  </g>
+</svg>
+
