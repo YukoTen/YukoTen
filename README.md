@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Systems, networks, and security — learning in public" width="100%" />
+  <img src="./assets/header.jpg" alt="Hello World terminal-style banner" width="100%" />
 </p>
 
 <p align="center">
