@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Systems, networks, and security</title>
+  <desc id="desc">A dark terminal-inspired banner with cyan and violet circuit lines and an abstract signal ghost.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0e14"/>
+      <stop offset="1" stop-color="#151126"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#42e8d4"/>
+      <stop offset="1" stop-color="#9e72ff"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#8b84bd" stroke-opacity=".09" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="20" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="298" rx="19" fill="none" stroke="#7563a8" stroke-opacity=".42"/>
+
+  <g fill="none" stroke="url(#neon)" stroke-width="2" opacity=".75">
+    <path d="M0 70h110l28 28h84"/><path d="M0 224h165l34-34h92"/>
+    <path d="M825 42h105l24 24h82"/><path d="M872 260h80l30-30h218"/>
+    <path d="M1050 116h92l28 28h30"/><path d="M914 174h95l24-24h167"/>
+  </g>
+  <g fill="#42e8d4" filter="url(#glow)">
+    <circle cx="222" cy="98" r="4"/><circle cx="291" cy="190" r="4"/>
+    <circle cx="1036" cy="66" r="4"/><circle cx="982" cy="230" r="4"/>
+  </g>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="92" y="118" fill="#8f84a9" font-size="14" letter-spacing="4">FIELD NOTES // 001</text>
+    <text x="88" y="179" fill="#f1eff8" font-size="43" font-weight="700" letter-spacing="1">SYSTEMS<tspan fill="#42e8d4"> / </tspan>NETWORKS</text>
+    <text x="91" y="220" fill="#bba8f5" font-size="23" letter-spacing="5">SECURITY · LEARNING IN PUBLIC</text>
+    <text x="92" y="265" fill="#767186" font-size="13" letter-spacing="2">LINUX  ·  PYTHON  ·  CYBERSECURITY</text>
+  </g>
+
+  <!-- Original abstract signal-ghost mark: a small personal accent, not a character likeness. -->
+  <g transform="translate(1005 88)" stroke="url(#neon)" stroke-width="3" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M34 6 58 18l16 25v52l-14-8-13 10-14-9-14 9-14-10-13 8V44L18 19Z" fill="#171323" fill-opacity=".92"/>
+    <path d="M24 48h7m22 0h7" stroke="#f3f0ff" stroke-linecap="round"/>
+    <path d="M31 68q11 8 22 0" fill="none" stroke="#42e8d4" stroke-linecap="round"/>
+    <path d="M20 28 8 20m51 8 12-9" fill="none" stroke="#9e72ff"/>
+  </g>
+  <g font-family="Consolas, monospace" font-size="12" fill="#827a9a">
+    <text x="1091" y="202">0xC0DE</text>
+    <text x="1082" y="220" fill="#42e8d4">&gt; curious</text>
+  </g>
+</svg>
+
