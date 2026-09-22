@@ -9,7 +9,7 @@
   Currently learning Python.
 </p>
 
-Windows 11 is my daily driver; Debian 13 and Kali Linux run in VMs.
+<p align="center"><sub>Spoken languages: German · English · Russian (learning)</sub></p>
 
 ### Tools & systems
 
